@@ -1,10 +1,34 @@
-#swap{
-	
+#swap {
+  background-color: skyblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
- #app{
-	 display:flex;
-	 flex-direction:column;
-	 justify-content:center;
-	 align-items:center;
-	 color:skyblue
- }
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: skyblue;
+}
+
+.day {
+  background-color: white;
+}
+
+.night {
+  background-color: black;
+}
+
+.button_night {
+  background-color: black;
+  color: white;
+}
+
+.button_day {
+  background-color: skyblue;
+  color: white;
+}
