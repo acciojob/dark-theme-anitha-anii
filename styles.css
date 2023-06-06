@@ -1,16 +1,10 @@
-#app{
-  height:90vh;
-}
-.night{
-  background-color: black;
-  color:white;
-}
-
 #swap{
-  outline:0;
+	
 }
-
-.button_night{
-  background-color:blue;
-  color:white; 
-}
+ #app{
+	 display:flex;
+	 flex-direction:column;
+	 justify-content:center;
+	 align-items:center;
+	 color:skyblue
+ }
